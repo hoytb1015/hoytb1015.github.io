@@ -1,1 +1,1 @@
-Check check, is this thing on? It seems you have to commit before you push.
+Hey there!
