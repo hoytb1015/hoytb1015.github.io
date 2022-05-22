@@ -172,7 +172,7 @@ nav { display: none; }
 
 .my-services {
     background-color: var(--clr-dark);
-    background-image: url(img/services-background.png);
+    background-image: url(img/services-background.png); 
     background-size: cover;
     background-blend-mode: multiply;
     color: var(--clr-light);
