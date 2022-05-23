@@ -41,35 +41,41 @@
 
     <section class="intro">
         <h1 class="section__title section__title--intro">
-          Python <strong><i>Computer Move Sheet Entry Form</i></strong>
+          Python <strong><i>PC Move Sheet Form</i></strong>
         </h1>
         <p class="section__subtitle section__subtitle--intro">April, 2022</p>
-        <img src="img/portfolio-02.jpg" alt="A showing of 8/21" class="intro__img">
+        <img src="img/portfolio-02.png" alt="A showing of 8/21" class="intro__img">
     </section>
     
     <div class="portfolio-item-individual">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
-            aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
-            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint 
-            occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit 
-            anim id est laborum.</p>
-        <img src="img/devhoyt-logo-alt.png" alt="">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
-            aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
-            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint 
-            occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit 
-            anim id est laborum.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
-            aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
-            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint 
-            occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit 
-            anim id est laborum.</p>
+        <p class="indent">Utilizing Python libraries such as PySimpleGUI and openpyxl, I was able to
+          create a simple data entry form that allows me to automate my workflow at
+          Nashville Electric Service. In the form, I can input the Host Name (EPB) of 
+          the device, the serial number of the device (or the EPB again, if it was a 
+          computer), the type of equipment ("Desktop", "Laptop", "Printer", or "Monitor"),
+          whether it was a "new" device or a previously-used device moving locations, etc., and
+          have that data pushed directly to a team-wide Excel inventory sheet.
+        </p>
+        <img src="img/portfolio-02-2.jpg" alt="" class="portfolio-subimg">
+        <img src="img/portfolio-02-3.jpg" alt="" class="portfolio-subimg">
+        <p class="indent">When the Submit button was pressed, the data would flow to whatever Excel
+          sheet location defined in the code. I also added customizability of initial inputs to the mix - 
+          I made it so that I could keep the current date (that would be automatically
+          generated upon execution of the program) and the "Entry By" field between 
+          submissions, and could edit the source code for whomever would want to utilize
+          the program themselves. I coded those inputs to stay static, even if the "Submit" or "Clear"
+          buttons were pressed; however, if someone else was responsible for the entry (and they were
+          utilizing my source program, for any reason), the user can simply
+          delete my name and place theirs.
+        </p>
+        <p class="indent">Due to basic cybersecurity concerns of Python scripts- among 
+          other factors - the Excel sheet utilized by my team has never been linked to this Python script - however, I was
+          able to still link it to an Excel sheet kept on my local machine and can
+          copy and paste from there. Since I am expected to carry out at least two computer deployments
+          per day at NES, with each deployment needing two full lines of data each,
+          this little program still proves itself invaluable to my workflow in regard to time saved and benefits the overarching 
+          push toward a fully-streamlined computer deployment process. 
+        </p>
     </div>
 
 
